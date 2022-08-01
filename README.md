@@ -1,11 +1,11 @@
-# Frontend Mentor - Testimonial Grid Section
+# Frontend Mentor - Tip calculator app
 
-This is a solution to the [Testimonial Grid Section](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Tip calculator app](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ### Links
 
-- Solution URL: [Click here](https://www.frontendmentor.io/solutions/testimonial-section-with-css-grid-_NMOJabU3)
-- Live Site URL: [Click here](https://iosebkhe.github.io/testimonial-grid/)
+- Solution URL: [Click here](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX/hub/tip-calculator-with-htmlcssjs-PZMG0xQdCf)
+- Live Site URL: [Click here](https://iosebkhe.github.io/tipCalcApp/)
 
 - Javascript
 - Semantic HTML5 markup
