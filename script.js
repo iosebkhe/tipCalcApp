@@ -79,6 +79,9 @@ const tipsPercent = function (event) {
     if (event.target.innerHTML === el.innerHTML) {
       el.classList.add("active");
       tips = parseFloat(el.innerHTML) / 100;
+
+      customInput.value = customInput.innerHTML;
+      customInput.classList.remove("main-outline");
     }
   });
 
