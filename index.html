@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <!-- calc logo -->
+    <header class="header">
+      <img src="images/logo.svg" alt="splitter" class="logo" />
+    </header>
+
+    <!-- calc content -->
+    <section class="container">
+      <!-- first part: inputs -->
+      <div class="inputs-part">
+        <!-- bill: where user passes the bill value -->
+        <div class="bill">
+          <div class="bill__label-box">
+            <label for="bill__inp" class="bill__label labels">Bill</label>
+            <label for="bill__inp" class="bill__error hidden">
+              Can't be zero
+            </label>
+          </div>
+          <div class="bill__input-box input-box">
+            <img
+              src="images/icon-dollar.svg"
+              alt="dollar icon"
+              class="bill__icon icon"
+            />
+            <input
+              type="number"
+              max="9999"
+              class="bill__input input"
+              id="bill__inp"
+              name="bill"
+              placeholder="142.55"
+              required
+            />
+          </div>
+        </div>
+        <!-- tips: here user selects the tip percent to calculate -->
+        <div class="tips">
+          <div class="tips__label-box">
+            <label for="tips__inp" class="tips__label labels">
+              Select Tip %
+            </label>
+          </div>
+          <div class="tips__btn-box">
+            <button class="btn btn__tips">5%</button>
+            <button class="btn btn__tips">10%</button>
+            <button class="btn btn__tips active">15%</button>
+            <button class="btn btn__tips">25%</button>
+            <button class="btn btn__tips">50%</button>
+            <input
+              type="number"
+              class="tips__input input"
+              id="tips__inp"
+              name="tips"
+              placeholder="Custom"
+              required
+            />
+          </div>
+        </div>
+        <!-- people: in this part user mast pass at least 1 to use app. this show for how many people should user wants to calculate tip -->
+        <div class="people">
+          <div class="people__label-box">
+            <label for="people__inp" class="people__label labels">
+              Number of People
+            </label>
+            <label for="people__inp" class="people__error hidden">
+              Can't be zero
+            </label>
+          </div>
+          <div class="people__input-box input-box">
+            <img
+              src="images/icon-person.svg"
+              alt="person icon"
+              class="people__icon icon"
+            />
+            <input
+              type="number"
+              class="people__input input"
+              id="people__inp"
+              name="people"
+              placeholder="5"
+              required
+            />
+          </div>
+        </div>
+      </div>
+      <!-- part two: outputs -->
+      <div class="outputs-part">
+        <!-- here will be show final amount of tip per person-->
+        <div class="tip-out result">
+          <header class="tip-out__title-box">
+            <h4 class="tip-out__title title">Tip Amount</h4>
+            <p class="tip-out__person person">/ person</p>
+          </header>
+          <div class="tip-out__value value">$4.27</div>
+        </div>
+
+        <!-- here will be show final amount of total value  per person-->
+        <div class="total result">
+          <header class="total__title-box">
+            <h4 class="total__title title">Total</h4>
+            <p class="total__person person">/ person</p>
+          </header>
+          <div class="total__value value">$32.79</div>
+        </div>
+        <!-- this button resets previous calculation -->
+        <button class="btn btn--main">Reset</button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
