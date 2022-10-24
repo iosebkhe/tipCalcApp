@@ -5,7 +5,7 @@ This is a solution to the [Tip calculator app](https://www.frontendmentor.io/cha
 ### Links
 
 - Solution URL: [Click here](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX/hub/tip-calculator-with-htmlcssjs-PZMG0xQdCf)
-- Live Site URL: [Click here](https://iosebkhe.github.io/tipCalcApp/)
+- Live Site URL: [Click here](https://tipcalc-iosebkhe.netlify.app/)
 
 ###
 - Javascript
