@@ -106,10 +106,6 @@ const calcTip = function () {
 };
 
 const reset = function () {
-  billInput.value = 0;
-  billInpVal();
-  peopleInput.value = 0;
-  peopleInpVal();
   customInput.value = "";
 
   billInput.style.opacity = "0.3";
