@@ -40,11 +40,18 @@ let tips = 0.15;
 
 //functions
 
+const init = function () {
+  billInput.style.opacity = "1";
+  peopleInput.style.opacity = "1";
+  resetBtn.classList.remove("inactive-btn");
+};
+
 //convert input str in to number
 const billInpVal = function () {
   billInput.classList.add("main-outline");
   billValue = Number(billInput.value);
   calcTip();
+  init();
 };
 
 const peopleInpVal = function () {
